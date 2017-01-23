@@ -38,7 +38,7 @@ module.exports = {
       },
     }),
     new webpack.optimize.DedupePlugin(),
-    new CleanPlugin(['build'], { verbose: false }),
+    new CleanPlugin(['dist'], { verbose: false }),
 		new webpack.optimize.OccurenceOrderPlugin(),
 		new HtmlWebpackPlugin({
 			template: './index.html',
