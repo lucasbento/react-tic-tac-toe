@@ -1,0 +1,79 @@
+{
+  "name": "react-tic-tac-toe",
+  "description": "Tic Tac Toe in React",
+  "version": "1.0.0",
+  "author": {
+    "name": "Lucas Bento da Silva",
+    "email": "lucas.bsilva@outlook.com",
+    "url": "https://github.com/lucasbento"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasbento/react-tic-tac-toe/issues"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.20.0",
+    "glamor": "^2.20.22",
+    "lodash.clonedeep": "^4.5.0",
+    "react": "15.3.2",
+    "react-dom": "^15.4.1",
+    "react-fontawesome": "^1.5.0",
+    "react-hot-loader": "^3.0.0-beta.5",
+    "react-modal-dialog": "^4.0.4",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.20.0",
+    "babel-eslint": "7.1.1",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "6.2.9",
+    "babel-plugin-transform-react-jsx-source": "^6.9.0",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-stage-0": "6.16.0",
+    "clean-webpack-plugin": "^0.1.11",
+    "enzyme": "^2.7.0",
+    "enzyme-to-json": "^1.4.5",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-import-resolver-webpack": "^0.8.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "html-webpack-plugin": "^2.22.0",
+    "jest": "^18.1.0",
+    "react-addons-test-utils": "^15.4.1",
+    "redux-mock-store": "^1.2.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "homepage": "https://github.com/lucasbento/react-tic-tac-toe",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "./dist"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "html"
+    ]
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasbento/react-tic-tac-toe.git"
+  },
+  "scripts": {
+    "build": "webpack --production --config webpack.prod.config.js --progress --profile --colors",
+    "lint": "eslint --ext jsx --ext js src",
+    "start": "http-server ./dist -p 7000",
+    "test": "jest --coverage",
+    "watch": "webpack-dev-server --config webpack.config.js --progress --profile --colors"
+  }
+}

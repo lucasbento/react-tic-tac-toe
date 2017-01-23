@@ -1,0 +1,8 @@
+exports[`<BoardSpace /> should render without exploding 1`] = `
+<li
+  data-css-hjczo8=""
+  onClick={[Function]}>
+  <Icon
+    name="times" />
+</li>
+`;

@@ -1,0 +1,78 @@
+exports[`<BoardGrid /> should render without exploding 1`] = `
+<ul
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "space-between",
+      "listStyleType": "none",
+      "padding": 0,
+      "width": 300,
+    }
+  }>
+  <BoardSpace
+    column={0}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={0}
+    isWinnerMark={[Function]}
+    value={null} />
+  <BoardSpace
+    column={0}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={1}
+    isWinnerMark={[Function]}
+    value={null} />
+  <BoardSpace
+    column={0}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={2}
+    isWinnerMark={[Function]}
+    value={null} />
+  <BoardSpace
+    column={1}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={0}
+    isWinnerMark={[Function]}
+    value={null} />
+  <BoardSpace
+    column={1}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={1}
+    isWinnerMark={[Function]}
+    value={null} />
+  <BoardSpace
+    column={1}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={2}
+    isWinnerMark={[Function]}
+    value={null} />
+  <BoardSpace
+    column={2}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={0}
+    isWinnerMark={[Function]}
+    value={null} />
+  <BoardSpace
+    column={2}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={1}
+    isWinnerMark={[Function]}
+    value={null} />
+  <BoardSpace
+    column={2}
+    getPlayerSymbol={[Function]}
+    handleNewMark={[Function]}
+    index={2}
+    isWinnerMark={[Function]}
+    value={null} />
+</ul>
+`;

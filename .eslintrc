@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "settings": {
+    "import/resolver": "webpack"
+  },
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "import/extensions": 0,
+    "max-len": [1, 120, 4],
+    "jsx-a11y/no-static-element-interactions": 0,
+    "react/no-unescaped-entities": 0,
+    "react/forbid-prop-types": 0
+  }
+}

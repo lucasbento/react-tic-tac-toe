@@ -1,0 +1,47 @@
+exports[`<App /> should render without exploding 1`] = `
+<App
+  actions={
+    Object {
+      "gameChoosePlayer": [Function],
+      "gameRestart": [Function],
+      "gameVerify": [Function],
+      "newMark": [Function],
+      "nextPlayer": [Function],
+    }
+  }
+  boardGrid={
+    Array [
+      Array [
+        null,
+        null,
+        null,
+      ],
+      Array [
+        null,
+        null,
+        null,
+      ],
+      Array [
+        null,
+        null,
+        null,
+      ],
+    ]
+  }
+  currentPlayer={1}
+  isTie={false}
+  marksCount={0}
+  playersSymbols={Object {}}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  winnerMarks={Object {}}
+  winnerPlayer={null} />
+`;

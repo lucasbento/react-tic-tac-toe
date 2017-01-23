@@ -1,0 +1,221 @@
+exports[`Game Reducer should change to the next player 1`] = `
+Object {
+  "boardGrid": Array [
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+  ],
+  "currentPlayer": 2,
+  "isTie": false,
+  "marksCount": 0,
+  "playersSymbols": Object {},
+  "winnerMarks": Object {},
+  "winnerPlayer": null,
+}
+`;
+
+exports[`Game Reducer should choose the player 1`] = `
+Object {
+  "boardGrid": Array [
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+  ],
+  "currentPlayer": 1,
+  "isTie": false,
+  "marksCount": 0,
+  "playersSymbols": Object {
+    "1": "X",
+    "2": "O",
+  },
+  "winnerMarks": Object {},
+  "winnerPlayer": null,
+}
+`;
+
+exports[`Game Reducer should define game as tie 1`] = `
+Object {
+  "boardGrid": Array [
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+  ],
+  "currentPlayer": 1,
+  "isTie": true,
+  "marksCount": 9,
+  "playersSymbols": Object {},
+  "winnerMarks": Object {},
+  "winnerPlayer": null,
+}
+`;
+
+exports[`Game Reducer should define player 1 as winner on diagonal board spaces 1`] = `
+Object {
+  "boardGrid": Array [
+    Array [
+      1,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      1,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      1,
+    ],
+  ],
+  "currentPlayer": 1,
+  "isTie": false,
+  "marksCount": 0,
+  "playersSymbols": Object {},
+  "winnerMarks": Object {
+    "0": Array [
+      0,
+    ],
+    "1": Array [
+      1,
+    ],
+    "2": Array [
+      2,
+    ],
+  },
+  "winnerPlayer": 1,
+}
+`;
+
+exports[`Game Reducer should define player 1 as winner on vertical board spaces 1`] = `
+Object {
+  "boardGrid": Array [
+    Array [
+      1,
+      null,
+      null,
+    ],
+    Array [
+      1,
+      null,
+      null,
+    ],
+    Array [
+      1,
+      null,
+      null,
+    ],
+  ],
+  "currentPlayer": 1,
+  "isTie": false,
+  "marksCount": 0,
+  "playersSymbols": Object {},
+  "winnerMarks": Object {
+    "0": Array [
+      0,
+    ],
+    "1": Array [
+      0,
+    ],
+    "2": Array [
+      0,
+    ],
+  },
+  "winnerPlayer": 1,
+}
+`;
+
+exports[`Game Reducer should handle a new mark 1`] = `
+Object {
+  "boardGrid": Array [
+    Array [
+      null,
+      1,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+  ],
+  "currentPlayer": 1,
+  "isTie": false,
+  "marksCount": 1,
+  "playersSymbols": Object {},
+  "winnerMarks": Object {},
+  "winnerPlayer": null,
+}
+`;
+
+exports[`Game Reducer should restart to the initial state but keep the chosen player symbol 1`] = `
+Object {
+  "boardGrid": Array [
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+    Array [
+      null,
+      null,
+      null,
+    ],
+  ],
+  "currentPlayer": 1,
+  "isTie": false,
+  "marksCount": 0,
+  "playersSymbols": Object {
+    "1": "X",
+    "2": "O",
+  },
+  "winnerMarks": Object {},
+  "winnerPlayer": null,
+}
+`;
